@@ -1,3 +1,53 @@
+body {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    gap: 12px;
+}
+hr {
+    z-index: auto;
+    width: 100%;
+    position: relative;
+    bottom: 93vh;
+    color: red;
+}
+form input {
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: 250px;
+}
+form input:focus {
+    outline: none;
+}
+form button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    cursor: pointer;
+}
+#form-detail {
+    padding: 16px;
+    height: 100vh;
+    background-color: indigo;
+    border-radius: 30px;
+}
 .list-item {
     display: flex;
     width: 300px;
